@@ -9,7 +9,7 @@
             <!-- Header -->
             <Grid BackgroundColor="#D3D3D3" Padding="10" ColumnDefinitions="*, Auto">
                 <Image Source="profile_placeholder.png" WidthRequest="50" HeightRequest="50" />
-                <Label Text="hello, loren!" 
+                <Label Text="hello, fulano!" 
                        FontSize="18" 
                        VerticalOptions="Center" 
                        Grid.Column="1" />

@@ -2,10 +2,11 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DTIapp.NovaPasta2.ScheduleClothesPage"
-             Title="ScheduleClothesPage">
+             Title="ScheduleClothesPage"
+             NavigationPage.HasNavigationBar="False">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Schedule"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
     </VerticalStackLayout>

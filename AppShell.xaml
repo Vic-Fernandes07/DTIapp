@@ -4,10 +4,10 @@
        x:Class="DTIapp.AppShell">
 
     <!-- Rotas para as páginas -->
-    <ShellContent Title="MainPage" ContentTemplate="{DataTemplate local:MainPage}" />
+    <!--<ShellContent Title="MainPage" ContentTemplate="{DataTemplate local:MainPage}" />
     <ShellContent Title="Load Items" ContentTemplate="{DataTemplate local:LoadItemsPage}" />
     <ShellContent Title="Create Clothes" ContentTemplate="{DataTemplate local:CreateClothesPage}" />
     <ShellContent Title="Schedule Clothes" ContentTemplate="{DataTemplate local:ScheduleClothesPage}" />
-    <ShellContent Title="Statistics" ContentTemplate="{DataTemplate local:StatisticsPage}" />
+    <ShellContent Title="Statistics" ContentTemplate="{DataTemplate local:StatisticsPage}" />-->
 
 </Shell>

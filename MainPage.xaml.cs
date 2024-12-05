@@ -1,4 +1,6 @@
-﻿namespace DTIapp
+﻿using DTIapp.NovaPasta2;
+
+namespace DTIapp
 {
     public partial class MainPage : ContentPage
     {
@@ -41,6 +43,31 @@
                         break;
                 }
             }
+        }
+
+        private async void Star_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new LoadItemsPage());
+        }
+
+        private async void Carrinho_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CartPage());
+        }
+
+        private async void Globo_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new GlobePage());
+        }
+
+        private async void Calendario_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CalendarPage());
+        }
+
+        private async void Guardaroupa_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new WardrobePage());
         }
     }
 }

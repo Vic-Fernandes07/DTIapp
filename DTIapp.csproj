@@ -72,13 +72,46 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\acessorios.png" />
+	  <None Remove="Resources\Images\bone.png" />
+	  <None Remove="Resources\Images\calendar.png" />
+	  <None Remove="Resources\Images\cart.png" />
+	  <None Remove="Resources\Images\cinto.png" />
+	  <None Remove="Resources\Images\feminino.png" />
+	  <None Remove="Resources\Images\globe.png" />
+	  <None Remove="Resources\Images\Hello.png" />
+	  <None Remove="Resources\Images\masculino.png" />
+	  <None Remove="Resources\Images\oculos.png" />
+	  <None Remove="Resources\Images\pulseira.png" />
+	  <None Remove="Resources\Images\roupas.png" />
+	  <None Remove="Resources\Images\sapatos.png" />
+	  <None Remove="Resources\Images\star.png" />
+	  <None Remove="Resources\Images\tenis.png" />
+	  <None Remove="Resources\Images\tiara.png" />
+	  <None Remove="Resources\Images\tudo.png" />
+	  <None Remove="Resources\Images\wardrobe.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Login.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="NovaPasta2\CalendarPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="NovaPasta2\CartPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="NovaPasta2\CreateClothesPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="NovaPasta2\GlobePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="NovaPasta2\LoadItemsPage.xaml">
@@ -88,6 +121,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="NovaPasta2\StatisticsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="NovaPasta2\WardrobePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

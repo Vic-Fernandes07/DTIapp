@@ -42,5 +42,33 @@
                 }
             }
         }
+<<<<<<< Updated upstream
+=======
+
+        private async void Star_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new LoadItemsPage());
+        }
+
+        private async void Carrinho_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CartPage());
+        }
+
+        private async void Globo_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new GlobePage());
+        }
+
+        private async void Calendario_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ScheduleClothesPage());
+        }
+
+        private async void Guardaroupa_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new WardrobePage());
+        }
+>>>>>>> Stashed changes
     }
 }

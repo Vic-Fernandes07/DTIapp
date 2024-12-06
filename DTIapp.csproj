@@ -78,6 +78,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+<<<<<<< Updated upstream
+=======
+	  <MauiXaml Update="Login.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="NovaPasta2\CartPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+>>>>>>> Stashed changes
 	  <MauiXaml Update="NovaPasta2\CreateClothesPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

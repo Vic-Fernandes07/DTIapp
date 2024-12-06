@@ -2,11 +2,38 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DTIapp.NovaPasta2.ScheduleClothesPage"
+<<<<<<< Updated upstream
              Title="ScheduleClothesPage">
     <VerticalStackLayout>
         <Label 
             Text="Welcome to .NET MAUI!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+=======
+             Title="ScheduleClothesPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <VerticalStackLayout VerticalOptions="Center" Padding="20">
+        <!-- Exibindo o Calendário -->
+        <DatePicker x:Name="calendar" 
+                    Date="{Binding SelectedDate}"
+                    DateSelected="OnDateSelected"
+                    Format="D"
+                    Margin="0,-200,0,0"/>
+
+        <!-- Botão Opcional -->
+        <VerticalStackLayout>
+            
+        <Button VerticalOptions="End" 
+                Margin="0,100,0,0"
+                Text="Abrir Câmera"
+                BackgroundColor="#D9D9D9"
+                TextColor="Black"
+                FontAttributes="Bold"
+                FontSize="30"
+                HeightRequest="400"
+                Clicked="OnOpenCamera" />
+        </VerticalStackLayout>
+>>>>>>> Stashed changes
     </VerticalStackLayout>
 </ContentPage>

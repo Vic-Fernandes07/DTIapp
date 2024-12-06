@@ -9,9 +9,7 @@
             Text="Schedule"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-=======
-             Title="ScheduleClothesPage"
-             NavigationPage.HasNavigationBar="False">
+
 
     <VerticalStackLayout VerticalOptions="Center" Padding="20">
         <!-- Exibindo o Calendário -->
@@ -34,6 +32,6 @@
                 HeightRequest="400"
                 Clicked="OnOpenCamera" />
         </VerticalStackLayout>
->>>>>>> Stashed changes
+    </VerticalStackLayout>
     </VerticalStackLayout>
 </ContentPage>

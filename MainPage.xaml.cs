@@ -1,4 +1,6 @@
-﻿namespace DTIapp
+﻿using DTIapp.NovaPasta2;
+
+namespace DTIapp
 {
     public partial class MainPage : ContentPage
     {
@@ -42,8 +44,6 @@
                 }
             }
         }
-<<<<<<< Updated upstream
-=======
 
         private async void Star_Clicked(object sender, EventArgs e)
         {
@@ -62,13 +62,12 @@
 
         private async void Calendario_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new ScheduleClothesPage());
+            await Navigation.PushAsync(new CalendarPage());
         }
 
         private async void Guardaroupa_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new WardrobePage());
         }
->>>>>>> Stashed changes
     }
 }
